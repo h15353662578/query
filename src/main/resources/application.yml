@@ -1,0 +1,14 @@
+server:
+  port: 5366
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017
+      database: mongo
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/db_new?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: 15353662578
